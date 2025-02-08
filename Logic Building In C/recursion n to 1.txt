@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(){
+    int range;
+    int fun(int);
+    printf("Enter the range of numbers you want:");
+    scanf("%d",&range);
+    fun(range);
+    return 0;
+}
+
+int fun(int n){
+    if(n==0){
+        return;
+    }
+    else{
+        printf("%d\n",n);
+        //pahile n print hoil ani mag parat func chalun parat n
+        //print hoil asa n times hoil 
+        fun(n-1);
+        }
+    
+}
