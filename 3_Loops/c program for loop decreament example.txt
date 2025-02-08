@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+    int a;
+    int i;
+    printf("Enter the value of a:");
+    scanf("%d" ,&a);
+    for(i=a;i;i--){
+        printf("The number is %d \n" ,i);
+        
+    }
+    return 0;
+}
