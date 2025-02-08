@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    float pi = 3.14;
+    float radius;
+    float result;
+    float height;
+    printf("Enter the value of Radius:");
+    scanf("%f" ,&radius);
+    printf("Enter the value of Height:");
+    scanf("%f" ,&height);
+    result = radius * radius * pi * height;
+    printf("The area of cylinder is %f" , result);
+    return 0;
+}

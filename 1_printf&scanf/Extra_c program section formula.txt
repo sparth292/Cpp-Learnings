@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main() {
+    
+float m,n,x1,x2,y1,y2,x,y;
+    
+printf("Enter the value of first section (m):");
+    
+scanf("%f" ,&m);
+    
+printf("Enter the value of second section (n):");
+    
+scanf("%f" ,&n);
+    
+printf("Enter the value of x1:");
+    
+scanf("%f" ,&x1);
+    
+printf("Enter the value of x2:");
+    
+scanf("%f" ,&x2);
+    
+printf("Enter the value of y1:");
+    
+scanf("%f" ,&y1);
+    
+printf("Enter the value of y2:");
+    
+scanf("%f" ,&y2);
+    
+    
+y = (m*y2 + n*y1)/(m + n);
+    
+x = (m*x2 + n*x1)/(m + n);
+    
+printf("The co-ordinates of x is:%f" ,x );
+    
+printf("The co-ordinates of y is:%f" ,y );
+     
+return 0;
+
+}

@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+
+int main(){
+    
+int angle1,angle2;
+    
+printf("Enter the angle 1 :");
+    
+scanf("%d" ,&angle1);
+    
+printf("Enter the angle 2 :");
+    
+scanf("%d" ,&angle2);
+    
+int c = 180 - (angle1 + angle2);
+    
+printf("The measure of remaining angle is: %d " ,c);
+    
+return 0;
+
+}
