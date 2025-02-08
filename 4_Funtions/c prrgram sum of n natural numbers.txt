@@ -1,0 +1,20 @@
+#include <stdio.h>
+int sumofnumbers(int n);
+
+int main() {
+    int number;
+    printf("Enter the positive number:");
+    scanf("%d" ,&number);
+    printf("The sum is:%d" ,sumofnumbers(number));
+
+return 0;
+}
+int sumofnumbers(int n){
+    
+    if(n != 0){
+     return n + sumofnumbers(n - 1);
+    }
+    else{
+    return n;
+    }
+}
