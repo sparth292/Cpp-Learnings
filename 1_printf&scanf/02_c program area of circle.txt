@@ -1,12 +1,17 @@
-#include <stdio.h>
+// Online C++ compiler to run C++ program online
+#include <iostream>
 
-int main() {
-    float pi = 3.14;
-    float radius;
-    float result;
-    printf("Enter the value of Radius:");
-    scanf("%f" ,&radius);
-    result = radius * radius * pi;
-    printf("The area of circle is %f" , result);
+using namespace std;
+
+int main(){
+    
+    float r;
+    const float pi = 3.14;
+    
+    cout << "Enter the Radius : " ;
+    cin >> r;
+    cout << "Therefore the area of the circle is " << (pi*r*r);
+    
     return 0;
+    
 }
