@@ -1,18 +1,17 @@
-#include<stdio.h>
+// Online C++ compiler to run C++ program online
+#include <iostream>
 
- 
+using namespace std;
+
 int main(){
     
-float celsius ,far;
+    float c;
     
-printf("Enter the temperature in celsius: ");
+    cout << "Enter Celcius : ";
+    cin >> c;
     
-scanf("%f" ,&celsius);
+    cout << "Therefore the Celcius to Farenheit is : " << ((c*9/5)+32);
     
-far = (celsius * 9/5) + 32;
-    
-printf("The value of celsius in farenheit is: %f°C" ,far);
-    
-return 0;
+    return 0;
     
 }
