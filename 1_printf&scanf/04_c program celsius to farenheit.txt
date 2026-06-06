@@ -9,7 +9,6 @@ int main(){
     
     cout << "Enter Celcius : ";
     cin >> c;
-    
     cout << "Therefore the Celcius to Farenheit is : " << ((c*9/5)+32);
     
     return 0;
